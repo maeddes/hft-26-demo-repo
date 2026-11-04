@@ -1,0 +1,12 @@
+{
+  "name": "backend-hono",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1",
+    "hono": "^4"
+  }
+}
