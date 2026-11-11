@@ -33,6 +33,11 @@
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-rest-jackson</artifactId>
         </dependency>
+        <!-- OpenAPI spec at /q/openapi and Swagger UI at /q/swagger-ui, read from the REST annotations -->
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-smallrye-openapi</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
